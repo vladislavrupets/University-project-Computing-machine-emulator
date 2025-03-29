@@ -34,6 +34,41 @@ An educational custom computer based on the **von Neumann architecture**, design
 ### 📖 Help Window
 ![Help window](readme-help-window.png)
 
+#### 📝 Commands Table:
+| Code | Mnemonic | Description |
+|------|---------|-------------|
+| 0    | ПЕР     | Assign A2 to A1 |
+| 1    | СПЛ     | Add floating-point: A1 = A1 + A2 |
+| 2    | ВЛП     | Subtract floating-point: A1 = A1 - A2 |
+| 3    | УМВ     | Multiply floating-point: A1 = A1 * A2 |
+| 4    | ДЕЛ     | Divide floating-point: A1 = A1 / A2 |
+| 5    | ВВЩ     | Input A2 floating-point numbers starting from A1 |
+| 6    | ВВЦ     | Input A2 integers starting from A1 |
+| 7    | ---     | Reserved |
+| 8    | ---     | Reserved |
+| 9    | БЕЗ     | Unconditional jump to A2 |
+| 10   | СПЦ     | Convert floating-point A2 to integer A1 |
+| 11   | СПЛЦ    | Add integers: A1 = A1 + A2 |
+| 12   | ВЛЦ     | Subtract integers: A1 = A1 - A2 |
+| 13   | УМЦ     | Multiply integers: A1 = A1 * A2 |
+| 14   | ДЕЛЦ    | Divide integers: A1 = A1 / A2 |
+| 15   | ВЫЩ     | Output A2 floating-point numbers from A1 |
+| 16   | ВЫЦ     | Output A2 integers from A1 |
+
+#### 🔍 Registers and Flags:
+| Name | Description |
+|------|-------------|
+| RA   | Register of the current instruction address |
+| RK   | Register of the current instruction code |
+| ω    | "Omega" register, changes based on arithmetic operations for conditional jumps |
+| R1   | Register for the first operand |
+| R2   | Register for the second operand |
+| E    | Error flag |
+| S    | Sign flag |
+| C    | Carry flag |
+| Z    | Zero flag |
+| T    | Step-by-step execution flag |
+
 ---
 
 ## 📊 Calculation Demo
