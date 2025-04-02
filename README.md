@@ -48,11 +48,11 @@ An educational custom computer based on the **von Neumann architecture**, design
 | 8    | ---     | Reserved |
 | 9    | БЕЗ     | Unconditional jump to A2 |
 | 10   | СПЦ     | Convert floating-point A2 to integer A1 |
-| 11   | СПЛЦ    | Add integers: A1 = A1 + A2 |
+| 11   | СЛЦ     | Add integers: A1 = A1 + A2 |
 | 12   | ВЛЦ     | Subtract integers: A1 = A1 - A2 |
 | 13   | УМЦ     | Multiply integers: A1 = A1 * A2 |
-| 14   | ДЕЛЦ    | Divide integers: A1 = A1 / A2 |
-| 15   | ВЫЩ     | Output A2 floating-point numbers from A1 |
+| 14   | ДЕЦ     | Divide integers: A1 = A1 / A2 |
+| 15   | ВЫВ     | Output A2 floating-point numbers from A1 |
 | 16   | ВЫЦ     | Output A2 integers from A1 |
 
 #### 🔍 Registers and Flags:
@@ -63,7 +63,7 @@ An educational custom computer based on the **von Neumann architecture**, design
 | ω    | "Omega" register, changes based on arithmetic operations for conditional jumps |
 | R1   | Register for the first operand |
 | R2   | Register for the second operand |
-| E    | Error flag |
+| Err  | Error flag |
 | S    | Sign flag |
 | C    | Carry flag |
 | Z    | Zero flag |
